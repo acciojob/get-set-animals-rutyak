@@ -20,6 +20,13 @@ class Dog extends Animal {
   }
 }
 
+const dog = new Dog();
+const cat = new Cat();
+
+dog.bark();
+cat.purr();
+cat.makeSound();
+
 // Do not change the code below this line
 window.Animal = Animal;
 window.Dog = Dog;
