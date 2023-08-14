@@ -8,7 +8,7 @@ class Animal {
   }
 	
   makeSound() {
-    console.log("Animal sound");
+    console.log(`The ${this.species} makes a sound`);
   }
 }
 
@@ -16,9 +16,8 @@ class Cat extends Animal {
   purr() {
     console.log("purr");
   }
-
-   makeSound() {
-    console.log("Meow");
+  makeSound() {
+    console.log(`The ${this.species} makes a sound`);
   }
 }
 
@@ -27,9 +26,9 @@ class Dog extends Animal {
     console.log("woof");
   }
 
-   makeSound() {
-    console.log("Auu Auu Auu");
-  }
+  makeSound() {
+    console.log(`The ${this.species} makes a sound`);
+   }
 }
 
 const ani = new Animal("wild Animal");
